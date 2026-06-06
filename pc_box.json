@@ -1,0 +1,12 @@
+[
+  {
+    "id": 25,
+    "nome": "pikachu",
+    "tipos": [
+      "electric"
+    ],
+    "hp": 35,
+    "ataque": 55,
+    "defesa": 40
+  }
+]
