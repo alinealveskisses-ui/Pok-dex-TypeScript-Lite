@@ -26,7 +26,7 @@ Antes de executar o projeto, é necessário ter instalado:
 ## Como instalar
 ```bash
 # Clone o repositório
-git clone [https://github.com/alinealveskisses-ui/Pok-dex-TypeScript-Lite.git](https://github.com/alinealveskisses-ui/Pok-dex-TypeScript-Lite.git)
+git clone https://github.com/alinealveskisses-ui/Pok-dex-TypeScript-Lite.git
 
 # Acesse a pasta do projeto
 cd "mini projeto"
