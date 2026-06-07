@@ -1,26 +1,21 @@
-// Contrato do que esperamos receber da PokeAPI
+// RF03 - Interface para o retorno bruto da PokeAPI
 export interface PokemonApiResponse {
   id: number;
   name: string;
+  height: number;
+  weight: number;
   types: {
     type: {
       name: string;
     };
   }[];
-  stats: {
-    base_stat: number;
-    stat: {
-      name: string;
-    };
-  }[];
 }
 
-// Estrutura simplificada que será salva no pc_box.json
+// RF02 & RF06 - Interface para o Pokémon resumido
 export interface PokemonResumo {
   id: number;
   nome: string;
   tipos: string[];
-  hp: number;
-  ataque: number;
-  defesa: number;
+  altura: number;
+  peso: number;
 }
